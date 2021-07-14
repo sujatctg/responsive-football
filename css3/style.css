@@ -1,0 +1,83 @@
+
+/* Font setup for the body */
+font-family: 'Poppins', sans-serif;
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container-banner{
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.top-banner{
+    display: grid;
+    grid-template-columns: 300px 600px;
+    background-color: navy;
+    width: 900px;
+    padding: 5px;
+}
+
+.banner-title{
+    color: white;
+    padding: 150px 50px;
+    font-size: 130%;
+}
+
+/* Watch Live button property */
+.button-banner{
+    background-color:crimson;
+    border:none;
+    padding: 12px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Color of the anchor tag */
+a{
+    text-decoration: none;
+    color: white;
+}
+.banner-img img{
+    width: 75%;
+    padding-top: 120px;
+    padding-right: 50px;
+    padding-left: 100px;
+}
+
+/* All 12 players into a section */
+.container{
+    margin-left: 0;
+    background-color:#e0dbdb;
+    width: 800px;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+/* Players profile section in a grid */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Style setup of individual player's box */
+.player{
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    padding: 5px 5px 5px 5px;
+}
+
+/* Image size of each player */
+.player img{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+}
+footer img{
+    width: 20%;
+}
