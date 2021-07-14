@@ -2,10 +2,10 @@
 /* Font setup for the body */
 font-family: 'Poppins', sans-serif;
 
-main{
+/* main{
     width: 1000px;
     justify-content: center;
-}
+} */
 
 .container-banner{
     justify-content: center;
@@ -17,6 +17,7 @@ main{
     background-color: navy;
     width: 1000px;
     padding: 5px;
+    margin-bottom: 40px;
 }
 
 .banner-title{
@@ -48,6 +49,7 @@ a{
 
 /* All 12 players into a section */
 .container{
+    align-items: center;
     justify-content: center;
     margin-left: 0;
     background-color:#e0dbdb;
@@ -83,3 +85,22 @@ footer{
 footer img{
     width: 20%;
 }
+
+/* .footer-icon{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    
+} */
+/* .social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+}
+ul li{
+    position: relative;
+    display: block;
+} */
